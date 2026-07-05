@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
   
@@ -10,16 +10,19 @@
 
   <style>
     body {
-      background-color:rgb(245, 214, 178)
+      background-color:rgb(245, 214, 178);
+      margin: 0;
+      padding: 20px;
     }
 
     .box-menu {
-      width: 450px;
+      width: 90%;
+      max-width:700px;
       margin: 0 auto;
       padding: 25px;
       box-shadow: 0px 4px 10px gray;
-      margin-top: 70px;
-      margin-bottom: 70px;
+      margin-top: 30px;
+      margin-bottom: 30px;
       background-color: #fff;
       border: 1px solid #fff;
       border-radius: 8px;
@@ -27,6 +30,7 @@
 
     img {
       width: 100%;
+      height:auto;
       border-radius: 8px;
     }
 
@@ -49,11 +53,17 @@
 
     .name {
       display:inline-block;
-      width: 200px;
+      width: 55%;
     }
     .value {
       display:inline-block;
-      width: 200px;
+      width: 40%;
+      font-weight: bold;
+      color: sienna;
+    }
+
+    * {
+      box-sizing: border-box;
     }
 
   </style>
@@ -61,7 +71,6 @@
 <body>
   <div class="box-menu">
     <img src="./assets/images/image-omelette.jpeg" alt="Simple Omelette">
-    
     <h1>Simple Omelette Recipe</h1>
 
   <p>An easy and quick dish, perfect for any meal. This classic omelette combines beaten eggs cooked 
